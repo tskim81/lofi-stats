@@ -189,6 +189,10 @@
                         <div class="stat-label">상태</div>
                         <div class="stat-value"><span class="live-pulse"></span>ONLINE</div>
                     </div>
+                    <div class="stat-item">
+                        <div class="stat-label">마지막 동기화</div>
+                        <div class="stat-value" id="last-update-time" style="font-size: 16px; color: var(--secondary);">Loding...</div>
+                    </div>
                 </div>
             </div>
         </header>
@@ -225,10 +229,15 @@
                 const response = await fetch('master_hq_stats.json');
                 const stats = await response.json();
                 
+                // Show last update time
+                if (stats.last_updated) {
+                    document.getElementById('last-update-time').innerText = stats.last_updated;
+                }
+
                 const grid = document.getElementById('main-grid');
                 grid.innerHTML = '';
 
-                Object.keys(stats).forEach(cid => {
+                Object.keys(stats).filter(k => k.startsWith('channel_')).forEach(cid => {
                     const cdata = stats[cid];
                     const card = document.createElement('div');
                     card.className = 'glass-card';
