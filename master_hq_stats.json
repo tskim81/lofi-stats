@@ -105,7 +105,7 @@
       {
         "video_id": "hmFxTiwsgyw",
         "title": "✨ Coding Study Deep Focus 🎧 #shorts #lofi #coding",
-        "views": 89,
+        "views": 90,
         "privacy": "public",
         "is_short": true,
         "published_at": "2026-03-27T06:40:51Z"
@@ -901,6 +901,56 @@
       "public_long": 3,
       "public_short": 14,
       "scheduled_private": 5
+    }
+  },
+  "channel_5": {
+    "title": "Midnight Study Library",
+    "thumbnail": "https://yt3.ggpht.com/sBsme4aRsUGzcNWWOOf5NVl_5CkJUbakER8SoTnNzIsocSEzpSAv9sbkqSWPBtKvaf_6VWdIkOw=s800-c-k-c0x00ffffff-no-rj",
+    "total_views": "0",
+    "sub_count": "1",
+    "total_videos": "0",
+    "videos": [
+      {
+        "video_id": "F0M188RA7iM",
+        "title": "✨ [1 Hour Midnight Library] Lofi Relax | Midnight Study Library 2026-04-02 [V2]",
+        "views": 0,
+        "privacy": "private",
+        "is_short": true,
+        "published_at": "2026-03-29T11:13:28Z"
+      },
+      {
+        "video_id": "QV46vcA1Zv8",
+        "title": "✨ [20 Min Quick Read] Lofi Relax | Midnight Study Library 2026-04-01 [V2]",
+        "views": 0,
+        "privacy": "private",
+        "is_short": false,
+        "published_at": "2026-03-29T10:51:40Z"
+      },
+      {
+        "video_id": "_zZE_d_AGRk",
+        "title": "✨ [20 Min Quick Read] Lofi Relax | Midnight Study Library 2026-03-31 [V2]",
+        "views": 0,
+        "privacy": "private",
+        "is_short": false,
+        "published_at": "2026-03-29T10:11:13Z"
+      },
+      {
+        "video_id": "4yoap1XRzY8",
+        "title": "✨ [8 Min Power Focus] Quick Session | Midnight Study Library",
+        "views": 0,
+        "privacy": "private",
+        "is_short": false,
+        "published_at": "2026-03-29T08:01:18Z"
+      }
+    ],
+    "live_status": "inactive",
+    "live_ccv": 0,
+    "metrics": {
+      "long_total": 3,
+      "short_total": 1,
+      "public_long": 0,
+      "public_short": 0,
+      "scheduled_private": 4
     }
   }
 }
